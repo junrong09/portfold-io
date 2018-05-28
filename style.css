@@ -1,0 +1,34 @@
+html,body {
+	background: url(background.jpg) #AAE8EB;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.frontHeading {
+	/*font-family: 'Acme', sans-serif;
+	font-size: 7rem;*/
+	font: bold 5.5rem 'Acme', sans-serif;
+	text-align: center;
+	margin-top: 40px;
+	text-transform: capitalize;
+}
+
+.btn-lg {
+	background-color: #007bff;
+	font-size: 1.5rem;
+	font-weight: bold;
+	width: 100%;
+	border: 5px solid #007bff;
+	border-radius: 20px;
+	transition: background-color 200ms ease-in;
+}
+
+.btn-lg:hover {
+	background-color: white;
+	color: #007bff;
+}
+
+#mc-embeded-subscribe-form {
+	width: 100%;
+}
